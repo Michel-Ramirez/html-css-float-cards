@@ -13,7 +13,7 @@ body{
 }
 
 main{
-    max-width: 1200px;
+    max-width: 1080px;
 }
 
 h1{
@@ -31,6 +31,9 @@ a{
     color: #4AC1E3;
 }
 
+.description{
+    text-align: center;
+}
 
 /* UTILITY */
 
@@ -63,4 +66,11 @@ a{
 .info{
     padding-top: 15px;
     display: block;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+
 }

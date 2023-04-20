@@ -12,6 +12,55 @@ body{
     font-family: 'fredoka', 'Arial';
 }
 
+main{
+    max-width: 1200px;
+}
+
 h1{
     color: #E53170;
+    text-align: center;
+    margin: 30px 30px;
+}
+img{
+    height: 100px;
+    padding-right: 5px ;
+}
+
+a{
+    text-decoration: none;
+    color: #4AC1E3;
+}
+
+
+/* UTILITY */
+
+.align-center{
+    width: 50%;
+    margin: 0 auto;
+}    
+
+
+/* CARDS LAYOUT */
+
+.cards img{
+    float: left;
+}
+
+.cards{
+    background-color: black;
+    color: white;
+    float: left;
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
+}
+
+.row{
+    margin-top: 20px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.info{
+    padding-top: 15px;
+    display: block;
 }

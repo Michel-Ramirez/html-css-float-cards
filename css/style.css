@@ -31,6 +31,7 @@ img{
 a{
     text-decoration: none;
     color: #4AC1E3;
+    display: block;
 }
 
 .description{

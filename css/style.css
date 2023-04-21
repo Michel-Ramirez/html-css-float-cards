@@ -32,6 +32,7 @@ a{
 
 .description{
     text-align: center;
+    text-align: justify;
 }
 
 /* UTILITY */
@@ -68,6 +69,5 @@ a{
 }
 
 .row{
-    padding: 10px;
     margin-top: 20px;
 }
